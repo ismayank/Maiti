@@ -1,0 +1,760 @@
+.bold-green {
+  font-size: 4.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: Gilroy-bold;
+  color: rgb(30 58 43);
+}
+.centered {
+  text-align: center;
+}
+.below {
+  color: rgb(30 58 43);
+  font-family: Gilroy-Light;
+  font-size: 1.72rem;
+  font-weight: 550;
+  margin-top: 3%;
+}
+.buttons {
+  margin-top: 20px; /* Adjust margin between text and buttons */
+}
+
+/* Button Styles */
+.join-button,
+.portal-button1 {
+  display: inline-block;
+  padding: 0.5%;
+  margin-left: 2.5%;
+  margin-top: 2%;
+  margin-bottom: 15%;
+  width: 16.5%;
+  border-radius: 20px;
+  background-color: rgb(30 58 43);
+  color: white;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-size: 1.15rem;
+  border: none;
+  font-family: Gilroy-bold;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+}
+
+/* Hover State */
+.join-button:hover,
+.portal-button1:hover,
+.portal-button3:hover,
+.button2:hover,
+.portal-button2:hover,
+.button3:hover {
+  background-color: white; /* Change background color on hover */
+  color: rgb(30 58 43); /* Change text color on hover */
+  transform: scale(1.05) translateY(-5px); /* Zoom effect on hover and move text upward */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Active State (Clicked) */
+.join-button:active,
+.portal-button1:active,
+.portal-button3:active,
+.button2:active.portal-button2:active,
+.button3:active {
+  transform: scale(0.95); /* Slight shrink effect when clicked */
+}
+
+.description {
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: Belleza-bold;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3.5%;
+}
+
+.climate-action {
+  background-color: rgb(30 58 43);
+  color: white;
+  padding: 2px 5px;
+}
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Adjust margin as per requirement */
+}
+.init {
+  font-size: 1.32rem;
+  color: rgb(30 58 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 3%;
+}
+.aboutpage {
+  background-color: rgb(248, 244, 240);
+}
+
+.headabout {
+  font-size: 3.4rem;
+  font-weight: bold;
+  display: flex;
+  color: rgb(30 58 43);
+  font-family: Gilroy-Bold;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 244, 240);
+  padding-top: 3%;
+}
+.container-left {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(248, 244, 240);
+  margin-right: 3%;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(248, 244, 240);
+}
+.imagel {
+  flex: 1;
+  border-radius: 4%;
+  margin-top: 3%;
+}
+
+.image {
+  flex: 1;
+  border-radius: 4%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+.text {
+  flex: 1;
+  border-radius: 4%;
+  margin-top: 12%;
+  text-align: left;
+  margin-right: 5%;
+}
+.textl {
+  flex: 1;
+  border-radius: 4%;
+  margin-top: 12%;
+  text-align: right;
+  margin-right: 3%;
+  margin-left: 7%;
+}
+.textl h2 {
+  font-family: Gilroy-bold;
+  color: rgb(30 58 43);
+  font-size: 2.6rem;
+  font-weight: 501;
+}
+
+.textl p {
+  font-size: 1.27rem;
+  margin-top: 10px; /* Adjust margin as per requirement */
+  font-family: Gilroy-light;
+  font-weight: 503;
+}
+.text h2 {
+  font-family: Gilroy-bold;
+  color: rgb(30 58 43);
+  font-size: 2.6rem;
+  font-weight: 501;
+}
+
+.text p {
+  font-size: 1.27rem;
+  margin-top: 10px; /* Adjust margin as per requirement */
+  font-family: Gilroy-light;
+  font-weight: 503;
+}
+
+.image img,
+.imagel img {
+  max-width: 100%;
+  height: 88%;
+  border-radius: 3%;
+}
+
+.box-container1 {
+  width: 50%;
+  margin: auto;
+  height: 510px;
+  border: 1px solid #ccc; /* Add border for the box */
+  border-radius: 3%; /* Rounded corners */
+  position: relative; /* Ensure positioning context for absolute positioning */
+  display: flex;
+  justify-content: center; /* Center the line horizontally */
+  margin-bottom: 10%;
+}
+
+.line {
+  position: absolute;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  left: 50%; /* Position the line in the center */
+  top: 0;
+  bottom: 0;
+  transform: translateX(-50%); /* Adjust position to center the line */
+  width: 2px; /* Adjust the width of the line */
+  background-color: #ccc; /* Color of the line */
+}
+
+.content1 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5%;
+}
+
+.left1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align items vertically */
+  justify-content: center; /* Center-align items horizontally */
+  flex-basis: 50%; /* Divide space equally for both sides */
+  /* Add padding for the text content */
+  margin-top: 7%;
+  margin-right: 3.3%;
+}
+.right1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  margin-left: 3%;
+  align-items: center; /* Center-align items vertically */
+  justify-content: center; /* Center-align items horizontally */
+  flex-basis: 50%; /* Divide space equally for both sides */
+  /* Add padding for the text content */
+}
+
+.left1 img,
+.right1 img {
+  width: 85%; /* Adjust image size as needed */
+  height: 50%;
+  border: 1px solid #ccc; /* Border for the images */
+  border-radius: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+.left1 p1,
+.right1 p1 {
+  color: rgb(30 58 43);
+  font-family: Gilroy-bold;
+  font-size: 1.1rem;
+  margin-top: 8%; /* Adjust margin as needed */
+  text-align: center; /* Center-align text */
+  justify-content: center;
+}
+.left1 p2,
+.right1 p2 {
+  color: black;
+  font-family: Gilroy-light;
+  font-weight: 503;
+  font-size: 1rem;
+  /* Adjust margin as needed */
+  text-align: center; /* Center-align text */
+  justify-content: center;
+}
+
+.left1 a,
+.right1 a {
+  display: block; /* Adjust margin as needed */
+  text-decoration: none;
+  color: rgb(59 130 246); /* Link color */
+  display: flex;
+  font-family: Gilroy-light;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  margin-left: 46%;
+  margin-top: 2%;
+  background-color: rgb(30 58 43);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  width: 7.5%;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center;
+
+  display: inline-block;
+  padding: 0.2%;
+
+  border-radius: 20px; /* Adjust as needed for the desired roundness */
+  background-color: rgb(30 58 43); /* Initial background color */
+  color: white; /* Initial text color */
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color change */
+  font-size: 1.15rem;
+  border: none;
+  font-family: Gilroy-light;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+}
+.button3 {
+  
+  margin-top: 2%;
+  margin-left: 45%;
+  background-color: rgb(30 58 43);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  width: 11.5%;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center;
+  margin-bottom: 5%;
+
+  display: inline-block;
+  padding: 0.8%;
+
+  border-radius: 20px;
+  background-color: rgb(30 58 43);
+  color: white;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-size: 1.15rem;
+  border: none;
+  font-family: Gilroy-light;
+  font-weight: bolder;
+
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+}
+.initial{
+    background-color: #d9a673;
+    margin-top: 5%;
+  margin-bottom: 3%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+
+}
+
+.init1 {
+  
+  padding: 5%;
+  justify-content: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: Gilroy-Bold;
+ 
+}
+/* AwarenessPortal.css */
+
+.portal-button2 {
+  display: inline-block;
+  padding: 0.5%;
+  margin-left: 2.5%;
+  margin-top: 3%;
+  margin-bottom: 15%;
+  width: 29.5%;
+  border-radius: 20px; /* Adjust as needed for the desired roundness */
+  background-color: rgb(30 58 43); /* Initial background color */
+  color: white; /* Initial text color */
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color change */
+  font-size: 1.15rem;
+  border: none;
+  font-family: Gilroy-light;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+}
+.awareness-portal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../Images/aware.jpg");
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+  color: white;
+}
+.awareness-portal1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../Images/Image1.jpg");
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Dark overlay for better text readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2.9em;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 10%;
+  font-family: Gilroy-bold;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-top: 1%;
+  font-family: Gilroy-light;
+  font-weight: bolder;
+}
+.subtitle1 {
+  font-size: 1.5em;
+  margin-top: 1%;
+  margin-left: 24%;
+  margin-right: 23%;
+  align-items: center;
+  text-align: center;
+
+  font-family: Gilroy-light;
+  font-weight: bolder;
+}
+
+.button-group {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center;
+  width: 100%;
+}
+
+.portal-button3 {
+  display: flex;
+  width: 7%;
+  padding: 0.27%;
+  margin-left: 0.5%;
+  margin-top: 3%;
+  margin-bottom: 15%;
+  justify-content: center;
+  border-radius: 20px; /* Adjust as needed for the desired roundness */
+  background-color: rgb(30 58 43); /* Initial background color */
+  color: white; /* Initial text color */
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color change */
+  font-size: 1.15rem;
+  border: none;
+  font-family: Gilroy-light;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+}
+.portal-button4 {
+  display: flex;
+  width: 7%;
+  padding: 0.27%;
+  margin-left: 0.5%;
+  margin-top: 3%;
+  margin-bottom: 15%;
+  justify-content: center;
+  border-radius: 20px; /* Adjust as needed for the desired roundness */
+  background-color: white; /* Change background color on hover */
+  color: rgb(30 58 43);
+  background-color: white; /* Change background color on hover */
+  color: rgb(30 58 43);
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+  font-size: 1.15rem;
+  border: none;
+  font-family: Gilroy-light;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.portal-button4:hover {
+  background-color: rgb(30 58 43); /* Initial background color */
+  color: white; /* Change text color on hover */
+  transform: scale(1.05) translateY(-5px); /* Zoom effect on hover and move text upward */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Active State (Clicked) */
+
+.portal-button3:active {
+  transform: scale(0.95); /* Slight shrink effect when clicked */
+}
+
+/* Contact.css */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: white;
+  color: #333;
+  font-family: Gilroy-bold;
+}
+
+.contact-content {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+.contact-header p {
+  font-size: 1.2em;
+  margin-top: 6%;
+  font-family: Poppins, sans-serif;
+}
+
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+.contact-input-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  gap: 1%;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-textarea {
+  height: 150px;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1em;
+}
+
+.contact-button:hover {
+  background-color: #444;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #ccc;
+  margin: 0 30px;
+  height: 400px;
+  align-self: stretch;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+.contact-info h2 {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+  font-family: Gilroy-bold;
+  font-weight: bolder;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  justify-content: left;
+  text-align: left;
+}
+
+.contact-info ul li {
+  font-size: 1.2em;
+  font-family: Belleza;
+  font-weight: 500;
+  text-align: left;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+.contact-message {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 150px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: Poppins, sans-serif;
+    background-color: white;
+  }
+  .logo-name1{
+    font-size: 1.7rem;
+    font-family:Gilroy-Light;
+    font-weight: 600;
+
+  }
+  
+  .main-left {
+    flex: 2;
+    margin-top: 6%;
+    padding-right: 30px;
+    
+  }
+  
+  .main-left img.main-logo {
+    height: 60px;
+    margin-left: 1.6%;
+    margin-right: 2%;
+  }
+  
+  .main-left p {
+    margin-top:7%;
+    font-size: 1.4rem;
+    text-align: left;
+    font-family:Gilroy-Light;
+    margin-bottom: 3%;
+    font-weight: 500;
+    margin-right: 50%;
+    margin-left: 2%;
+  }
+  
+  /* .join-button {
+    background-color: #1E3A2B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .join-button:hover {
+    background-color: #fff;
+    color: #1E3A2B;
+    border: 1px solid #1E3A2B;
+  } */
+  
+  .main-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .company, .resources {
+    flex: 1;
+  }
+  
+  .company h3, .resources h3 {
+    margin-bottom: 10px;
+    margin-top: 79%;
+  }
+  
+  .company ul, .resources ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .company li, .resources li {
+    margin: 5px 0;
+  }
+
+  .buttonl {
+    display: inline-block;
+    padding: 0.5%;
+    margin-left: 105%;
+    width: 20%;
+    border-radius: 20px; /* Adjust as needed for the desired roundness */
+    background-color: rgb(30 58 43 ); /* Initial background color */
+    color: white; /* Initial text color */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color change */
+    font-size: 16px;
+    border: none;
+    font-family: Gilroy-bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+  }
+  .join-button1 {
+    display: inline-block;
+    padding: 0.5%;
+    margin-left: 2%;
+    width: 18%;
+    border-radius: 20px; /* Adjust as needed for the desired roundness */
+    background-color: rgb(30 58 43 ); /* Initial background color */
+    color: white; /* Initial text color */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color change */
+    font-size: 16px;
+    border: none;
+    font-family: Gilroy-bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+  }
+  
+  /* Hover State */
+  .buttonl:hover,
+  .join-button1:hover {
+    background-color: white; /* Change background color on hover */
+    color: rgb(30 58 43 ); /* Change text color on hover */
+    transform: scale(1.05) translateY(-5px); /* Zoom effect on hover and move text upward */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
+  /* Active State (Clicked) */
+  .buttonl:active ,
+  .join-button1:active{
+    transform: scale(0.95); /* Slight shrink effect when clicked */
+  }

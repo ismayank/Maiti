@@ -1,0 +1,87 @@
+.container {
+    width: 100%;
+    background-color: white; /* Set background color to white */
+    transition: top 0.3s; /* Smooth transition for fixed position */
+}
+
+.container.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 38px;
+}
+
+.logo-name {
+    font-size: 1.71rem;
+    color: #1e3a2b;
+    font-weight: 500;
+    font-family: Gilroy-Light;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navigation ul li {
+    margin-right: 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #1e3a2b;
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 1.12rem;
+    transition: color 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: #00b894;
+}
+
+.login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5%;
+    width: 10%;
+    border-radius: 20px;
+    background-color: rgb(30 58 43);
+    color: white;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+    border: none;
+    font-family: Gilroy-bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(30 58 43);
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
